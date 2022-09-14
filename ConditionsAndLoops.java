@@ -133,22 +133,37 @@ public class ConditionsAndLoops {
 
 
 		// write a for loop that will iterate backwards from 10 to -10
-
-
+		for (int i=-10; i <= 10; i++) {
+			System.out.println(i);
+		}
+		
+		
 
 		// write a do/while loop that prints 1 through 50
-
+		int l = 1;
+		do {
+			System.out.println(l++);
+		} while (l <= 50);
+		
+		
+			
 
 		// edit the previous do/while loop so that it prints the remainder when the loop number is divided by 4
-
+		int j = 1;
+		do {
+			System.out.println(j%4);
+			j++;
+		} while (j <= 50);
+		
+		
 
 		// Someone messed up the following for loop
 		// fix the following infinite loop, uncomment to test
-		/* 
-		    for(let i = 11; i > 10; i++){
-		        console.log(i);
+		
+		    for(int i = 1; i < 10; i++){
+		        System.out.println(i);
 		    } 
-		*/
+		
 	}
 
 }
